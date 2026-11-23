@@ -21,20 +21,10 @@
 | 백준 | - | - | - | - | **1** (Silver) |
 | 직접 풀이 | - | - | - | - | **4** |
 
-## 📁 폴더 구조
-
-```
-📦 Coding_Test
- ┣ 📂 C++
- ┃ ┣ 📂 프로그래머스      # 레벨별(0~3) 문제 풀이
- ┃ ┗ 📂 직접 풀이        # 직접 연습한 문제
- ┗ 📂 C++17
-   ┗ 📂 백준             # 티어별 문제 풀이
-```
-
 ## 📝 문제 목록
 
-### 🟦 프로그래머스 (24문제)
+<details>
+<summary><b>🟦 프로그래머스 (24문제)</b></summary>
 
 | 난이도 | 번호 | 문제 | 풀이 |
 |:---:|:---:|:---|:---:|
@@ -63,13 +53,19 @@
 | Lv. 2 | 389479 | [서버 증설 횟수](https://school.programmers.co.kr/learn/courses/30/lessons/389479) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/389479.%E2%80%85%EC%84%9C%EB%B2%84%E2%80%85%EC%A6%9D%EC%84%A4%E2%80%85%ED%9A%9F%EC%88%98) |
 | Lv. 3 | 43105 | [정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/43105.%E2%80%85%EC%A0%95%EC%88%98%E2%80%85%EC%82%BC%EA%B0%81%ED%98%95) |
 
-### 🟨 백준 (1문제)
+</details>
+
+<details>
+<summary><b>🟨 백준 (1문제)</b></summary>
 
 | 난이도 | 번호 | 문제 | 풀이 |
 |:---:|:---:|:---|:---:|
 | Silver IV | 1764 | [듣보잡](https://acmicpc.net/problem/1764) | [C++](./C%2B%2B17/%EB%B0%B1%EC%A4%80/Silver/1764.%E2%80%85%EB%93%A3%EB%B3%B4%EC%9E%A1) |
 
-### ✏️ 직접 풀이
+</details>
+
+<details>
+<summary><b>✏️ 직접 풀이</b></summary>
 
 | 문제 | 풀이 |
 |:---|:---:|
@@ -77,6 +73,8 @@
 | 문자열 해싱을 이용한 검색 함수 만들기 | [C++](./C%2B%2B/%EC%A7%81%EC%A0%91%20%ED%92%80%EC%9D%B4/%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%95%B4%EC%8B%B1%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EA%B2%80%EC%83%89%20%ED%95%A8%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0.cpp) |
 | 요세푸스 문제 | [C++](./C%2B%2B/%EC%A7%81%EC%A0%91%20%ED%92%80%EC%9D%B4/%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4%EB%AC%B8%EC%A0%9C.cpp) |
 | 주사위 여행 | [C++](./C%2B%2B/%EC%A7%81%EC%A0%91%20%ED%92%80%EC%9D%B4/%EC%A3%BC%EC%82%AC%EC%9C%84%20%EC%97%AC%ED%96%89.cpp) |
+
+</details>
 
 ---
 
