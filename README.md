@@ -5,10 +5,10 @@
 **매일 조금씩, 꾸준히 푸는 알고리즘 문제 기록장**
 
 <!-- AUTO:BADGES:START -->
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Programmers](https://img.shields.io/badge/Programmers-25_solved-1E90FF?style=flat-square)
-![Baekjoon](https://img.shields.io/badge/Baekjoon-1_solved-F7B500?style=flat-square)
-![Auto push](https://img.shields.io/badge/auto_push-BaekjoonHub-2ea44f?style=flat-square)
+![language: C++](./assets/badges/language.svg)
+![Programmers: 25 solved](./assets/badges/programmers.svg)
+![Baekjoon: 1 solved](./assets/badges/baekjoon.svg)
+![auto push: BaekjoonHub](./assets/badges/auto-push.svg)
 <!-- AUTO:BADGES:END -->
 
 </div>
