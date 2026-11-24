@@ -92,6 +92,39 @@ def level_group(p):
     return level_label(p) if p["site"] == "프로그래머스" else p["level"].split()[0]
 
 
+BADGE_DIR = os.path.join(ROOT, "assets", "badges")
+
+
+def text_width(text):
+    # Verdana 11px 기준 대략적인 글자 폭
+    w = 0
+    for ch in text:
+        if ch in "il.,:;|!'": w += 3.5
+        elif ch in "mwMW": w += 10
+        elif ch in "+=#%": w += 9
+        elif ch.isupper() or ch.isdigit(): w += 7.5
+        elif ch == " ": w += 3.5
+        else: w += 6.5
+    return round(w)
+
+
+def svg_badge(label, message, color):
+    """shields.io flat-square 모양의 배지를 직접 그린다 (외부 서비스 없이)."""
+    lw, mw = text_width(label) + 12, text_width(message) + 12
+    total = lw + mw
+    esc = lambda t: t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{total}" height="20" role="img" '
+        f'aria-label="{esc(label)}: {esc(message)}">'
+        f'<title>{esc(label)}: {esc(message)}</title>'
+        f'<g shape-rendering="crispEdges"><rect width="{lw}" height="20" fill="#555"/>'
+        f'<rect x="{lw}" width="{mw}" height="20" fill="#{color}"/></g>'
+        f'<g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">'
+        f'<text x="{lw / 2}" y="14">{esc(label)}</text>'
+        f'<text x="{lw + mw / 2}" y="14">{esc(message)}</text></g></svg>\n'
+    )
+
+
 def badges(problems, self_solved):
     n = {s: sum(p["site"] == s for p in problems) for s in ("프로그래머스", "백준")}
     langs = []
@@ -102,15 +135,21 @@ def badges(problems, self_solved):
     for _, l, _ in self_solved:
         if l not in langs:
             langs.append(l)
-    logo = {"C++": "cplusplus", "Python": "python", "Java": "openjdk", "JavaScript": "javascript"}
+
+    specs = [("language", "language", " · ".join(langs) or "-", "00599C"),
+             ("programmers", "Programmers", f"{n['프로그래머스']} solved", "1E90FF"),
+             ("baekjoon", "Baekjoon", f"{n['백준']} solved", "F7B500"),
+             ("auto-push", "auto push", "BaekjoonHub", "2EA44F")]
+    os.makedirs(BADGE_DIR, exist_ok=True)
     lines = []
-    for l in langs:
-        label = urllib.parse.quote(l.replace("-", "--"))
-        extra = f"&logo={logo[l]}&logoColor=white" if l in logo else ""
-        lines.append(f"![{l}](https://img.shields.io/badge/{label}-00599C?style=flat-square{extra})")
-    lines.append(f"![Programmers](https://img.shields.io/badge/Programmers-{n['프로그래머스']}_solved-1E90FF?style=flat-square)")
-    lines.append(f"![Baekjoon](https://img.shields.io/badge/Baekjoon-{n['백준']}_solved-F7B500?style=flat-square)")
-    lines.append("![Auto push](https://img.shields.io/badge/auto_push-BaekjoonHub-2ea44f?style=flat-square)")
+    for name, label, message, color in specs:
+        path = os.path.join(BADGE_DIR, f"{name}.svg")
+        svg = svg_badge(label, message, color)
+        old = open(path, encoding="utf-8").read() if os.path.exists(path) else None
+        if old != svg:
+            with open(path, "w", encoding="utf-8") as fp:
+                fp.write(svg)
+        lines.append(f"![{label}: {message}](./assets/badges/{name}.svg)")
     return "\n".join(lines)
 
 
