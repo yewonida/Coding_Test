@@ -4,27 +4,31 @@
 
 **매일 조금씩, 꾸준히 푸는 알고리즘 문제 기록장**
 
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Programmers](https://img.shields.io/badge/Programmers-24_solved-1E90FF?style=flat-square)
+<!-- AUTO:BADGES:START -->
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Programmers](https://img.shields.io/badge/Programmers-25_solved-1E90FF?style=flat-square)
 ![Baekjoon](https://img.shields.io/badge/Baekjoon-1_solved-F7B500?style=flat-square)
 ![Auto push](https://img.shields.io/badge/auto_push-BaekjoonHub-2ea44f?style=flat-square)
+<!-- AUTO:BADGES:END -->
 
 </div>
 
 ---
 
+<!-- 아래 구역은 커밋할 때마다 GitHub Actions가 자동으로 다시 만듭니다. 직접 고치지 마세요. -->
+<!-- AUTO:LIST:START -->
 ## 📊 풀이 현황
 
-| 플랫폼 | Lv. 0 | Lv. 1 | Lv. 2 | Lv. 3 | 합계 |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 프로그래머스 | 1 | 9 | 13 | 1 | **24** |
-| 백준 | - | - | - | - | **1** (Silver) |
-| 직접 풀이 | - | - | - | - | **4** |
+| 플랫폼 | 세부 | 합계 |
+|:---:|:---|:---:|
+| 프로그래머스 | Lv. 0 (1) · Lv. 1 (9) · Lv. 2 (14) · Lv. 3 (1) | **25** |
+| 백준 | Silver (1) | **1** |
+| 직접 풀이 | - | **4** |
 
 ## 📝 문제 목록
 
 <details>
-<summary><b>🟦 프로그래머스 (24문제)</b></summary>
+<summary><b>🟦 프로그래머스 (25문제)</b></summary>
 
 | 난이도 | 번호 | 문제 | 풀이 |
 |:---:|:---:|:---|:---:|
@@ -47,6 +51,7 @@
 | Lv. 2 | 42577 | [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42577.%E2%80%85%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%E2%80%85%EB%AA%A9%EB%A1%9D) |
 | Lv. 2 | 42584 | [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42584.%E2%80%85%EC%A3%BC%EC%8B%9D%EA%B0%80%EA%B2%A9) |
 | Lv. 2 | 42586 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42586.%E2%80%85%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C) |
+| Lv. 2 | 42587 | [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42587.%E2%80%85%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4) |
 | Lv. 2 | 49994 | [방문 길이](https://school.programmers.co.kr/learn/courses/30/lessons/49994) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/49994.%E2%80%85%EB%B0%A9%EB%AC%B8%E2%80%85%EA%B8%B8%EC%9D%B4) |
 | Lv. 2 | 76502 | [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/76502.%E2%80%85%EA%B4%84%ED%98%B8%E2%80%85%ED%9A%8C%EC%A0%84%ED%95%98%EA%B8%B0) |
 | Lv. 2 | 148653 | [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/148653.%E2%80%85%EB%A7%88%EB%B2%95%EC%9D%98%E2%80%85%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0) |
@@ -65,16 +70,17 @@
 </details>
 
 <details>
-<summary><b>✏️ 직접 풀이</b></summary>
+<summary><b>✏️ 직접 풀이 (4문제)</b></summary>
 
 | 문제 | 풀이 |
 |:---|:---:|
-| 두 개의 수로 특정값 만들기 | [C++](./C%2B%2B/%EC%A7%81%EC%A0%91%20%ED%92%80%EC%9D%B4/%EB%91%90%EA%B0%9C%EC%9D%98%20%EC%88%98%EB%A1%9C%20%ED%8A%B9%EC%A0%95%EA%B0%92%20%EB%A7%8C%EB%93%A4%EA%B8%B0.cpp) |
+| 두개의 수로 특정값 만들기 | [C++](./C%2B%2B/%EC%A7%81%EC%A0%91%20%ED%92%80%EC%9D%B4/%EB%91%90%EA%B0%9C%EC%9D%98%20%EC%88%98%EB%A1%9C%20%ED%8A%B9%EC%A0%95%EA%B0%92%20%EB%A7%8C%EB%93%A4%EA%B8%B0.cpp) |
 | 문자열 해싱을 이용한 검색 함수 만들기 | [C++](./C%2B%2B/%EC%A7%81%EC%A0%91%20%ED%92%80%EC%9D%B4/%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%95%B4%EC%8B%B1%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EA%B2%80%EC%83%89%20%ED%95%A8%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0.cpp) |
-| 요세푸스 문제 | [C++](./C%2B%2B/%EC%A7%81%EC%A0%91%20%ED%92%80%EC%9D%B4/%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4%EB%AC%B8%EC%A0%9C.cpp) |
+| 요세푸스문제 | [C++](./C%2B%2B/%EC%A7%81%EC%A0%91%20%ED%92%80%EC%9D%B4/%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4%EB%AC%B8%EC%A0%9C.cpp) |
 | 주사위 여행 | [C++](./C%2B%2B/%EC%A7%81%EC%A0%91%20%ED%92%80%EC%9D%B4/%EC%A3%BC%EC%82%AC%EC%9C%84%20%EC%97%AC%ED%96%89.cpp) |
 
 </details>
+<!-- AUTO:LIST:END -->
 
 ---
 
