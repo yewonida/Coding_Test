@@ -7,7 +7,7 @@
 <!-- AUTO:BADGES:START -->
 ![language: C++](./assets/badges/language.svg)
 ![Programmers: 25 solved](./assets/badges/programmers.svg)
-![Baekjoon: 1 solved](./assets/badges/baekjoon.svg)
+![Baekjoon: 2 solved](./assets/badges/baekjoon.svg)
 ![auto push: BaekjoonHub](./assets/badges/auto-push.svg)
 <!-- AUTO:BADGES:END -->
 
@@ -22,7 +22,7 @@
 | 플랫폼 | 세부 | 합계 |
 |:---:|:---|:---:|
 | 프로그래머스 | Lv. 0 (1) · Lv. 1 (9) · Lv. 2 (14) · Lv. 3 (1) | **25** |
-| 백준 | Silver (1) | **1** |
+| 백준 | Silver (2) | **2** |
 | 직접 풀이 | - | **4** |
 
 ## 📝 문제 목록
@@ -61,11 +61,12 @@
 </details>
 
 <details>
-<summary><b>🟨 백준 (1문제)</b></summary>
+<summary><b>🟨 백준 (2문제)</b></summary>
 
 | 난이도 | 번호 | 문제 | 풀이 |
 |:---:|:---:|:---|:---:|
 | Silver IV | 1764 | [듣보잡](https://acmicpc.net/problem/1764) | [C++](./C%2B%2B17/%EB%B0%B1%EC%A4%80/Silver/1764.%E2%80%85%EB%93%A3%EB%B3%B4%EC%9E%A1) |
+| Silver III | 2606 | [바이러스](https://acmicpc.net/problem/2606) | [C++](./C%2B%2B17/%EB%B0%B1%EC%A4%80/Silver/2606.%E2%80%85%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4) |
 
 </details>
 
