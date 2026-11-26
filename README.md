@@ -6,7 +6,7 @@
 
 <!-- AUTO:BADGES:START -->
 ![language: C++](./assets/badges/language.svg)
-![Programmers: 25 solved](./assets/badges/programmers.svg)
+![Programmers: 26 solved](./assets/badges/programmers.svg)
 ![Baekjoon: 3 solved](./assets/badges/baekjoon.svg)
 ![auto push: BaekjoonHub](./assets/badges/auto-push.svg)
 <!-- AUTO:BADGES:END -->
@@ -21,14 +21,14 @@
 
 | 플랫폼 | 세부 | 합계 |
 |:---:|:---|:---:|
-| 프로그래머스 | Lv. 0 (1) · Lv. 1 (9) · Lv. 2 (14) · Lv. 3 (1) | **25** |
+| 프로그래머스 | Lv. 0 (1) · Lv. 1 (10) · Lv. 2 (14) · Lv. 3 (1) | **26** |
 | 백준 | Silver (3) | **3** |
 | 직접 풀이 | - | **4** |
 
 ## 📝 문제 목록
 
 <details>
-<summary><b>🟦 프로그래머스 (25문제)</b></summary>
+<summary><b>🟦 프로그래머스 (26문제)</b></summary>
 
 | 난이도 | 번호 | 문제 | 풀이 |
 |:---:|:---:|:---|:---:|
@@ -41,6 +41,7 @@
 | Lv. 1 | 64061 | [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/64061.%E2%80%85%ED%81%AC%EB%A0%88%EC%9D%B8%E2%80%85%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0%E2%80%85%EA%B2%8C%EC%9E%84) |
 | Lv. 1 | 68644 | [두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/68644.%E2%80%85%EB%91%90%E2%80%85%EA%B0%9C%E2%80%85%EB%BD%91%EC%95%84%EC%84%9C%E2%80%85%EB%8D%94%ED%95%98%EA%B8%B0) |
 | Lv. 1 | 159994 | [카드 뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/159994.%E2%80%85%EC%B9%B4%EB%93%9C%E2%80%85%EB%AD%89%EC%B9%98) |
+| Lv. 1 | 172928 | [공원 산책](https://school.programmers.co.kr/learn/courses/30/lessons/172928) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/172928.%E2%80%85%EA%B3%B5%EC%9B%90%E2%80%85%EC%82%B0%EC%B1%85) |
 | Lv. 1 | 388351 | [유연근무제](https://school.programmers.co.kr/learn/courses/30/lessons/388351) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/388351.%E2%80%85%EC%9C%A0%EC%97%B0%EA%B7%BC%EB%AC%B4%EC%A0%9C) |
 | Lv. 2 | 12900 | [2 x n 타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/12900.%E2%80%852%E2%80%85x%E2%80%85n%E2%80%85%ED%83%80%EC%9D%BC%EB%A7%81) |
 | Lv. 2 | 12909 | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909?language=cpp) | [C++](./C%2B%2B/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/12909.%E2%80%85%EC%98%AC%EB%B0%94%EB%A5%B8%E2%80%85%EA%B4%84%ED%98%B8) |
